@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Alike&display=swap');
+/* -----------------------------------------------------------------------*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Alike', serif;
+    background-color: #000000;
+    color: #ffffff;
+    background-image: url("assets/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* -----------------------------------------------------------------------*/
+
+.Social-Links {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 105vh;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+/* -----------------------------------------------------------------------*/
+
+/* Avatar Img */
+.avatar {
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* Center the avatar */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* -----------------------------------------------------------------------*/
+
+/* Username */
+
+.Username {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 2px 0;
+    /* Center the username */
+    text-align: center;
+}
+/* -----------------------------------------------------------------------*/
+
+.Social-button {
+    background-color: #ddd;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    position: relative;
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+/* -----------------------------------------------------------------------*/
+
+
+/* -----------------------------------------------------------------------*/
+.Github {
+    color: #ffffff; /* that shit White */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 100px; 
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+.twitter {
+    color: #ffffff; /* that shit White */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 100px; 
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.Hashnode {
+    color: #ffffff; /* that shit White */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 100px; 
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.Linkedin {
+    color: #ffffff; /* that shit White */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 100px; 
+    font-size: 30px;
+    cursor: pointer;
+}
+  
+.LeetCode {
+    color: #ffffff; /* that shit White */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 100px; 
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.button-text {
+    color: #ffffff;
+    font-family: 'Alike', serif;
+
+}
+
+
+.Social-Links
+{
+    /* White text color */
+    color: #ffffff;
+   
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px; /* Use a large value to make it pill-shaped */
+    font-size: 16px;
+    cursor: pointer;
+    /* Add any other styles you want for the links with button styles */
+}
+
+
+
+/* -----------------------------------------------------------------------*/
+/*footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
