@@ -4,7 +4,7 @@ body {
     font-family: 'Alike', serif;
     background-color: #000000;
     color: #ffffff;
-    background-image: url("assets/hero-bg.jpg");
+    background-image: url("/assets/hero-bg.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -22,6 +22,7 @@ body {
 .website-is {
     font-size: 30px;
     font-weight: bold;
+    
     margin: -77px 0;
 }
 

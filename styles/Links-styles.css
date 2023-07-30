@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Alike&display=swap');
+/* -----------------------------------------------------------------------*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Alike', serif;
+    background-color: #87CEEB; /* Sky blue background */
+    color: #ffffff; /* White text color */
+    background-image: url("/assets/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Round avatar */
+}
+
+h4 {
+    margin: 10px 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    width: 200px;
+    border: none;
+    border-radius: 50px; /* Round button shape */
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff; /* White text color */
+    background-color: #00bfff; /* Replace #00bfff with the desired sky blue color */
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+.button i, .button iconify-icon {
+    color: #ffffff; /* White icon color */
+}
+
+/* -----------------------------------------------------------------------*/
+/*footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
